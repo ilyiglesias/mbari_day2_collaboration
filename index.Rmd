@@ -17,6 +17,31 @@ knitr::opts_chunk$set(echo = TRUE)
 change output to isoslides_presentation
 
 
+## NYC Flight exploration
+
+```{r}
+library(tidyverse,
+        nycflights13) #install.packages("nycflights13")
+
+
+## January first flights
+
+flights
+
+flights %>% 
+  filter(month == 1,
+         day == 1) ##Code not working likely a typo. 
+
+
+```
+
+
+
+
+
+
+
+
 
 
 
