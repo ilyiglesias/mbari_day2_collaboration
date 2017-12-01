@@ -29,6 +29,22 @@ library(nycflights13) #install.packages("nycflights13")
 
 flights
 
+
+
+
+
+
+
+
+
+
+jhgkdfhgkdfhkgjhdfnkgnerhtlrehtierhtniler
+
+
+
+
+
+
 flights %>% 
   filter(month == 1,
          day == 1) ##Code not working likely a typo. 
