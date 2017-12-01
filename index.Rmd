@@ -20,8 +20,8 @@ change output to isoslides_presentation
 ## NYC Flight exploration
 
 ```{r}
-library(tidyverse,
-        nycflights13) #install.packages("nycflights13")
+library(tidyverse)
+library(nycflights13) #install.packages("nycflights13")
 
 
 ## January first flights
@@ -33,7 +33,7 @@ flights %>%
          day == 1) ##Code not working likely a typo. 
 
 
- ```
+```
 
 
 
